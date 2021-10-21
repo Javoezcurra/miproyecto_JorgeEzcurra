@@ -41,11 +41,11 @@
   background-color: #363636;
   padding-top: 5%;
   padding-bottom: 5%;
-  padding-left: 40%;
-  padding-right: 40% ;
-
+  padding-left: 50%;
+  padding-right: 50% ;
+  margin-top: -1.5% ;
 }
-.Main {
+.Mains {
 
 text-decoration: none;
 display: flex;
@@ -53,9 +53,21 @@ flex-direction: row;
 margin-right: 120px;
 }
 
-.menu {
+.menus {
 
   padding-left: 1%;
   padding-right: 10%;
+  
 
+}
+
+.seccionmenu {
+
+background-color: #412f2f;
+
+margin-top: -2.3%;
+padding-right: 5%;
+padding-left: 35%;
+margin-right: 5%;
+padding-right: 30%;
 }

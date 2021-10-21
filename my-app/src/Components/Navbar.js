@@ -5,13 +5,16 @@ import React from "react";
 function Lmenu() {
 
     return (
- <div>
+ <div className="seccionmenu">
  <main>
-   <ul className="Main">
-     <li className="menu">Noticias</li>
-     <li className="menu">Reseñas</li>
-     <li className="menu">Productos</li>
-     <li className="menu">Contacto</li>
+   <ul className="Mains">
+   <span class="material-icons">
+     shopping_cart
+   </span>
+     <li className="menus">Noticias</li>
+     <li className="menus">Reseñas</li>
+     <li className="menus">Productos</li>
+     <li className="menus">Contacto</li>
    </ul>
  </main>
 </div>
