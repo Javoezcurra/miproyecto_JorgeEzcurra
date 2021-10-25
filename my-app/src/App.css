@@ -15,6 +15,7 @@
 
 .App-header {
   background-color: #030303;
+  padding-bottom: 4%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -71,3 +72,44 @@ padding-left: 35%;
 margin-right: 5%;
 padding-right: 30%;
 }
+
+.Count {
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+  border-radius: 8% ;
+  margin-left: 25px;
+  background-color: transparent;
+ 
+}
+
+
+
+.Counts{
+  display: flex;
+  flex-direction: row;
+  padding-left: 10%;
+  background-color: rgba(22, 7, 22, 0.808);
+  padding-top: 3%;
+  padding-bottom: 5%;
+ 
+ }
+ 
+ .co1{
+ margin-right: 25px;
+ margin-left: 25px;
+ background-color: transparent;
+ 
+ }
+ 
+ .co2{
+     margin-right: 25px;
+     margin-left: 25px;
+     background-color: transparent;
+ }
+ 
+ .co3{
+     margin-right: 25px;
+     margin-left: 25px;
+     background-color: transparent;
+ }
