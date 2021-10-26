@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import Navbar from "./Components/Navbar";
 import ItemListContainer from "./Components/ItemListContainer";
 import ItemCount from "./Components/botones/ItemCount";
+import {Itemlist} from "./Components/Itemlist";
 import './App.css';
 
 function App() {
@@ -42,6 +43,12 @@ function App() {
         <img src="https://p4.wallpaperbetter.com/wallpaper/518/184/909/geek-video-games-wallpaper-preview.jpg" />
       </header>
       
+      <div>
+
+      <Itemlist />
+
+      </div>
+
       <div className="Counts">
 
       <ItemCount className="co1"/> 
