@@ -4,6 +4,7 @@ import ItemListContainer from "./Components/ItemListContainer";
 import ItemCount from "./Components/botones/ItemCount";
 import {Itemlist} from "./Components/Itemlist";
 import './App.css';
+import ItemDetail from './Components/ItemDetailContainer/ItemDetail';
 
 function App() {
   return (
@@ -48,6 +49,37 @@ function App() {
       <Itemlist />
 
       </div>
+
+      <div className="item-container">
+
+     <ItemDetail 
+     
+     className="item"
+     name={"Termo Stanley"}
+     description={"Termo Stanley disponibles en 3 colores"}
+     precio={"$6.000"}
+     img={"https://d3ugyf2ht6aenh.cloudfront.net/stores/650/868/products/urfyt1-7831a48faf9f3dad8c15985357908350-640-0.jpg"}/>
+
+     
+
+     
+    <ItemDetail 
+    className="item"
+     name={"Mesa Suskick"}
+     description={"Elegante mesa de exteriores"}
+     precio={"$12.000"}
+     img={"https://cdn2.jysk.com/getimage/wd2.medium/133860"}/>
+    
+    
+    
+    <ItemDetail 
+    className="item"
+     name={"Asus Rog Strix Gaming (usada)"}
+     description={"Potente computadora para el trabajo y la diversión"}
+     precio={"$180.000"}
+     img={"https://www.soscomputacion.com.ar/18633-large_default/notebook-gamer-asus-rog-strix-gaming-intel-i5-9300h-ddr4-8gb-512gb-ssd-nvidia-1650gtx-bfull-hd-windows-10.jpg"}/>
+     
+     </div>
 
       <div className="Counts">
 

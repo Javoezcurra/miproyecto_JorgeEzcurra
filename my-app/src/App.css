@@ -113,3 +113,17 @@ padding-right: 30%;
      margin-left: 25px;
      background-color: transparent;
  }
+
+
+ .item-container{
+
+  display: flex;
+  flex-direction: row;
+  padding-left: 19%;
+  background-color: rgba(22, 7, 22, 0.808);
+  padding-top: 3%;
+  padding-bottom: 5%;
+
+ }
+
+ 
