@@ -5,21 +5,31 @@ import React from "react";
 function Lmenu() {
 
     return (
- <div className="seccionmenu">
- <main>
-   <ul className="Mains">
-   <span class="material-icons">
-     shopping_cart
-   </span>
-     <li className="menus">Noticias</li>
-     <li className="menus">Reseñas</li>
-     <li className="menus">Productos</li>
-     <li className="menus">Contacto</li>
-   </ul>
+ <div className="seccionmenu ui compact menu">
+ <main className="main">
+   <a className="Mains">
+   <a class="material-icons item"><i></i>
+   shopping_cart
+   </a>
+   </a>
+   <a class="item">
+    <i class="gamepad icon"></i>
+    Productos
+  </a>
+  <a class="item">
+    <i class="video camera icon"></i>
+    Blog
+  </a>
+  <a class="item">
+    <i class="video play icon"></i>
+    Contacto
+    </a>
  </main>
-</div>
+ </div>
     )
-
 }
+
+
+
 
 export default Lmenu;

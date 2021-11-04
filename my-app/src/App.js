@@ -54,7 +54,7 @@ function App() {
 
      <ItemDetail 
      
-     className="item"
+     className="items"
      name={"Termo Stanley"}
      description={"Termo Stanley disponibles en 3 colores"}
      precio={"$6.000"}
@@ -64,7 +64,7 @@ function App() {
 
      
     <ItemDetail 
-    className="item"
+    className="items"
      name={"Mesa Suskick"}
      description={"Elegante mesa de exteriores"}
      precio={"$12.000"}
@@ -73,7 +73,7 @@ function App() {
     
     
     <ItemDetail 
-    className="item"
+    className="items"
      name={"Asus Rog Strix Gaming (usada)"}
      description={"Potente computadora para el trabajo y la diversión"}
      precio={"$180.000"}

@@ -2,6 +2,7 @@ import React from 'react'
 import { Card, Image } from 'semantic-ui-react'
 
 
+
 const ItemDetail = ({img, name, precio, description }) => (
   <Card>
     <Image src={img} />
@@ -18,3 +19,4 @@ const ItemDetail = ({img, name, precio, description }) => (
 )
 
 export default ItemDetail;
+
